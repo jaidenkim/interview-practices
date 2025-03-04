@@ -1,5 +1,5 @@
 class Solution:
-    def maxNumberOfBalloonsFirstTry(self, text: str) -> int:
+    def maxNumberOfBalloonsFirstTry(self, text: str) -> int:  # 3ms, beats 58.96%
         count = {
             "b": 0,
             "a": 0,

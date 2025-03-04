@@ -1,5 +1,5 @@
 class Solution:
-    def isIsomorphic(self, s: str, t: str) -> bool:
+    def isIsomorphic(self, s: str, t: str) -> bool:  # 7ms, beats 57.14%
         # egg(011) <-> add(011)
         # foo(011) <-> bar(012)
         # paper(01023) <-> title(01023)

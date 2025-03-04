@@ -2,7 +2,7 @@ from typing import List
 
 
 class Solution:
-    def numIdenticalPairs(self, nums: List[int]) -> int:
+    def numIdenticalPairs(self, nums: List[int]) -> int:  # 0ms, beats 100%
         number2idx = {}
         cnt = 0
         for i, n in enumerate(nums):
